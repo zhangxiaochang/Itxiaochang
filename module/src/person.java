@@ -1,3 +1,4 @@
+import java.io.ObjectInputStream;
 import java.io.Serializable;
 
 /**
@@ -12,4 +13,5 @@ public class person implements Serializable {
     private  int id;
     private int getId;
     private String in;
+    private ObjectInputStream objectInputStream=null;
 }
