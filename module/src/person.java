@@ -10,5 +10,5 @@ public class person implements Serializable {
 
 
     private  int id;
-
+    private int getId;
 }
